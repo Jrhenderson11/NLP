@@ -71,9 +71,8 @@ the system it is run on will need nltk with several downloaded modules:
 Code.py is the main file, it is responsible for the file handling and calling the methods from other files to do the fiddly bits. What these fiddly bits should be self explanatory from their names
 
 ## Phases:
-```
-running Code.py demonstrates both parts of the assignment and prints information to the console. It reads in the untagged files, extracts information (and displays a summary to the console for inspection), saves the tagged files, all the time comparing its performance to the test data, displaying summary statistics at the end. It then creates the ontolgy tree and prints it to console
-```
+
+Running Code.py demonstrates both parts of the assignment and prints information to the console. It reads in the untagged files, extracts information (and displays a summary to the console for inspection), saves the tagged files, all the time comparing its performance to the test data, displaying summary statistics at the end. It then creates the ontology tree and prints it to console
 
 ### Fun Fact #1: 
 Intro.py selects its 3 random words from Big.txt, because Big.txt contains the text from Tolstoys "War and Peace"
@@ -88,5 +87,5 @@ ie the word "Urban" in names.family
 I've also added a file containing names found by extracting pretagged speakers (names.training) and names.extra, which contains titles and abbreviated middle name letters (e.g Thomas W. Malone)
 
 
-### FUN FACT #2:
+### Fun Fact #2:
  The system uses 74 regular expressions!
