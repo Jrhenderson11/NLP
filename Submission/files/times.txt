@@ -1,0 +1,164 @@
+1
+1 p.m.
+10
+10:00
+10:00 AM
+10:00 am
+10:00am
+10:30
+10:30 a.m
+10:30 AM
+10:30 am
+10:30 PM
+10:30pm
+10:45 a.m
+10:45 A.M.
+10:45 AM
+10am
+11
+11:00
+11:00 AM
+11:00am
+11:00AM
+11:30
+11:30 a.m.
+11:30 AM
+11:30 PM
+11:30</sentence>
+11:30am</sentence>
+11:30pm
+11:45
+11:50
+11am
+12
+12 noon
+12 Noon
+12 PM
+12.30
+12:00
+12:00 noon
+12:00 pm
+12:00 PM
+12:00noon
+12:00pm
+12:30
+12:30 p.m
+12:30 PM
+12:30 pm
+12:30pm
+12:45
+1315
+1430
+1:00
+1:00 p.m</sentence>.
+1:00 pm
+1:00 PM
+1:00pm
+1:20 PM
+1:20pm
+1:25
+1:30
+1:30 P.M
+1:30 p.m
+1:30 p.m.
+1:30 PM
+1:30 pm
+1:30 pm</sentence>
+1:30pm
+1:50
+1PM
+2 p.m
+2 pm
+200PM
+2:00
+2:00 p.m.
+2:00 pm
+2:00 PM
+2:00pm
+2:30
+2:30 p.m
+2:30 pm
+2:30 PM
+2pm</sentence>
+3 p.m
+3:00
+3:00 p.m
+3:00 p.m.
+3:00 pm
+3:00 PM
+3:00pm
+3:30
+3:30 P.M
+3:30 p.m
+3:30 p.m.
+3:30 PM
+3:30 pm
+3:30 pm</stime>, <location>1295 Biomedical Science Tower</location>.  <sentence>Refreshments served at <stime>3:30
+3:30PM
+3:30pm
+3pm
+4
+4.30 pm
+4:00
+4:00 p.m
+4:00 p.m.
+4:00 PM
+4:00 pm
+4:00 pm</sentence>
+4:00pm
+4:15 PM
+4:15pm
+4:30
+4:30 p.m
+4:30 pm
+4:30 PM
+4:30pm
+4:30PM
+4:45
+5 p.m
+5 p.m.
+5 pm
+5 PM
+5:00
+5:00 p.m
+5:00 P.M
+5:00 P.M.
+5:00 p.m.
+5:00 pm
+5:00 PM
+5:00pm
+5:30
+5:30 PM
+5:30 pm
+5:30pm
+5pm
+6:00
+6:00 PM
+6:15 PM
+6:30 PM
+7 pm
+7 PM
+7:00
+7:00 P.M
+7:00 PM
+7:00 pm
+7:30
+7:30 p.m
+7:30 PM
+7:30 pm
+7PM
+7pm
+8 p.m
+8:00 PM
+8:30 a.m
+8:30 AM
+8:30 PM
+9:00 am
+9:00 AM
+9:00 PM
+9:00am
+9:30 am
+9:30 AM
+9AM
+Noon
+noon

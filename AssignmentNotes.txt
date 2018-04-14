@@ -1,0 +1,110 @@
+from os import listdir
+from os.path import isfile, join
+
+#======================================================================
+
+#			LOADING DATA
+
+corpus_root = ''
+files_root = '/home/james/Documents/NLP/files/'
+
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+
+#======================================================================
+
+#			READING DATA
+
+corpus = nltk.corpus.reader.plaintext.PlaintextCorpusReader(corpus_root, onlyfiles)
+
+or read the text directly via 
+
+>>> import nltk.data
+>>> nltk.data.load('corpora/assignment1/wsj_1947.txt')
+#======================================================================
+
+#			ONTOLOGY STUFF
+
+use classification from naive bayes, then structure more
+
+use wordnet as in wordnet.py
+use wikipedia / bing api as in wikifier.py
+
+
+make some kind of tree for classes??? (deals with relationships between)
+
+ask about handmade tree to slot in classes
+
+#======================================================================
+#======================================================================
+
+#			STUFF
+
+Entity regex: '(?<=\s)[A-Z][a-z]+(?=\s)'
+or
+
+single capitalized words
+([A-z]\w+ )
+
+match multiple capitals for names / entities
+([A-Z]\w+(\s([A-Z]\w+))*)
+
+
+1st words in sentence: 
+
+after . :
+(?<=((\.\s)))(\w+)
+
+at start:
+'(?<=((^\s)))(\w+)'
+
+2nd word in (single) sentence:
+(?<=(([^\.]\s)))(\w+)
+
+
+re.search(regex, text)
+
+(?<=((\.|^)w+))     (w+)           (?=\s)
+
+
++ve lookbehind
+(?<=((\s)))
+
++ve look ahead
+(?=\s)
+
+
+#match as few as possible paragraph contents
+<paragraph>(((.*\n)+?.*)|(.*))(<\/paragraph>)
+
+
+
+
+Tokenisation
+Part of Speech Tagging
+Named Entity Recognition
+======================================
+
+label:
+
+sentence
+
+paragraph (.+\n)
+
+time
+
+location
+
+speaker
+
+Ontology construction
+
+==============
+
+re.sub('(.+\n)', '<paragraph>\1</paragraph>', string)
+
+time regex:
+
+(0?[0-9]|1[0-9]|2[0-4]):[0-5][0-9]
+
+
+==============================

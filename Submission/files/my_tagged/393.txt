@@ -1,0 +1,24 @@
+<0.20.1.93.13.50.17.trg+@N3.SP.CS.CMU.EDU (Thomas Gross).0>
+Type:     cmu.cs.scs
+Topic:    CS/PSC Seminar 1/22: Miura on <location>Fujitsu VPP 500</location>
+Dates:    22-Jan-93
+Time:     <stime>4:00 PM</stime>
+PostedBy: trg+ on 20-Jan-93 at 13:50 from N3.SP.CS.CMU.EDU (Thomas Gross)
+Abstract: 
+
+		PSC/CS Seminar
+
+	<location>The VPP 500</location> -- Fujitsu's Parallel Processor
+			<speaker>Ken Miura</speaker>
+		Fujitsu America, Inc.
+
+	<stime>4:00 p.m</stime>., <location>3rd Floor Conference Room</location>
+		   Mellon Institute Bldg
+
+<paragraph><sentence>-------
+No abstract is available at this time</sentence>.  <sentence>A list of future seminars will be
+posted in the near future</sentence>.  </paragraph>
+
+
+
+<topic>vpp miura fujitsu cs cs/psc scs</topic>

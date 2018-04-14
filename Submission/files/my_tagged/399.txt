@@ -1,0 +1,34 @@
+<0.10.2.93.17.05.59.jass+@cs.cmu.edu (Jaspal Subhlok).0>
+Type:     cmu.cs.scs
+Topic:    Re: Lecture by <speaker>Rajiv Gupta</speaker>, Univ of Pittsburgh, Feb 12, <etime>9 AM</etime>
+Dates:    12-Feb-93
+Time:     <etime>9:00 AM</etime>
+PostedBy: jass+ on 10-Feb-93 at 17:05 from cs.cmu.edu (Jaspal Subhlok)
+Abstract: 
+
+
+<paragraph><sentence>The lecture is on Friday  Feb 12</sentence>. <sentence>I wrote a different date at one
+place  inside the message</sentence>. <sentence>Sorry about the confusion</sentence>.</paragraph>
+
+<paragraph>jas</paragraph>
+
+In article  <paragraph>jas</paragraph>s+@cs.cmu.edu (Jaspal Subhlok) writes:
+>
+>Date:    Feb 12,93
+>Time:    9.<stime>00 A.M</stime>.
+>Place:   <location>WeH 5409</location>
+>Topic:   Program Dependence Graph and Static Single Assignment forms
+>
+><speaker>Rajiv Gupta</speaker> from University of Pittsburgh will deliver a guest
+>lecture  in the course on "Modern Language Implementation" on
+>Feb 19 at 9.00. His lecture will focus on Program Dependence
+>Graph and Static Single Assignment program representations. You
+>may wish to attend this lecture, even if you do not attend
+>the class otherwise. Please contact me (<paragraph>jas</paragraph>s@cs) if you wish to
+>speak to Rajiv while he is here.
+>
+>
+
+
+
+<topic>language implementation modern pittsburgh gupta cs univ scs rajiv</topic>

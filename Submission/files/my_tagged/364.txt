@@ -1,0 +1,47 @@
+<0.20.5.93.15.51.47.sbk+@cs.cmu.edu (Sing Bing Kang).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Peter Eggleston</speaker>, Amerinex Artificial Intelligence, Inc.
+Topic:    Talk on object segmentation techniques and constraint based feature indexing
+Dates:    25-May-93
+Time:     <stime>3:00 PM</stime>
+Place:    WeH4623
+Duration: 75 mins.
+Host:     Sing Bing Kang (sbk@cs)
+PostedBy: sbk+ on 20-May-93 at 15:51 from cs.cmu.edu (Sing Bing Kang)
+Abstract:<paragraph> </paragraph>
+
+<paragraph> </paragraph>Date:		25-May-93,<paragraph> </paragraph>Tuesday
+<paragraph> </paragraph>Time:		<stime>3:00pm</stime>
+<paragraph> </paragraph>Place:		WeH4623
+<paragraph> </paragraph>Duration:	75<paragraph> </paragraph>mins.
+<paragraph> </paragraph>Who:		Peter<paragraph> </paragraph>Eggleston,<paragraph> </paragraph>Amerinex<paragraph> </paragraph>Artificial<paragraph> </paragraph>Intelligence,<paragraph> </paragraph>Inc.
+<paragraph> </paragraph>Topics:		Object<paragraph> </paragraph>Segmentation<paragraph> </paragraph>Techniques<paragraph> </paragraph>for<paragraph> </paragraph>use<paragraph> </paragraph>in<paragraph> </paragraph>Visual<paragraph> </paragraph>Automation
+<paragraph> </paragraph>		and
+<paragraph> </paragraph>		Constraint<paragraph> </paragraph>Based<paragraph> </paragraph>Feature<paragraph> </paragraph>Indexing<paragraph> </paragraph>and<paragraph> </paragraph>Retrieval<paragraph> </paragraph>for<paragraph> </paragraph>Image
+<paragraph> </paragraph>		Databases
+<paragraph> </paragraph>Host:		Sing<paragraph> </paragraph>Bing<paragraph> </paragraph>Kang<paragraph> </paragraph>(sbk@cs)
+
+<paragraph>Topic<paragraph> </paragraph>1:<paragraph> </paragraph>Object<paragraph> </paragraph>Segmentation<paragraph> </paragraph>Techniques<paragraph> </paragraph>for<paragraph> </paragraph>use<paragraph> </paragraph>in<paragraph> </paragraph>Visual<paragraph> </paragraph>Automation</paragraph>
+
+<paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>In<paragraph> </paragraph>designing<paragraph> </paragraph>automated<paragraph> </paragraph>systems<paragraph> </paragraph>for<paragraph> </paragraph>interpretation<paragraph> </paragraph>or<paragraph> </paragraph>manipulation<paragraph> </paragraph>of
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>laboratory<paragraph> </paragraph>image<paragraph> </paragraph>data<paragraph> </paragraph>such<paragraph> </paragraph>as<paragraph> </paragraph>that<paragraph> </paragraph>derived<paragraph> </paragraph>from<paragraph> </paragraph>microphotographs,<paragraph> </paragraph>it<paragraph> </paragraph>is
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>often<paragraph> </paragraph>the<paragraph> </paragraph>goal<paragraph> </paragraph>to<paragraph> </paragraph>perform<paragraph> </paragraph>operations<paragraph> </paragraph>that<paragraph> </paragraph>extract<paragraph> </paragraph>information<paragraph> </paragraph>about<paragraph> </paragraph>the
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>structure<paragraph> </paragraph>of<paragraph> </paragraph>objects,<paragraph> </paragraph>and<paragraph> </paragraph>to<paragraph> </paragraph>separate<paragraph> </paragraph>and<paragraph> </paragraph>discern<paragraph> </paragraph>various<paragraph> </paragraph>objects<paragraph> </paragraph>within
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>the<paragraph> </paragraph>data.<paragraph> </paragraph>Given<paragraph> </paragraph>a<paragraph> </paragraph>transformation<paragraph> </paragraph>of<paragraph> </paragraph>the<paragraph> </paragraph>pixel<paragraph> </paragraph>based<paragraph> </paragraph>image<paragraph> </paragraph>data<paragraph> </paragraph>into<paragraph> </paragraph>an
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>explicit<paragraph> </paragraph>symbolic<paragraph> </paragraph>representation<paragraph> </paragraph>of<paragraph> </paragraph>the<paragraph> </paragraph>objects<paragraph> </paragraph>(i.e.,<paragraph> </paragraph>the<paragraph> </paragraph>creation<paragraph> </paragraph>of
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>objects<paragraph> </paragraph>of<paragraph> </paragraph>interest<paragraph> </paragraph>or<paragraph> </paragraph>Tokens),<paragraph> </paragraph>desired<paragraph> </paragraph>information<paragraph> </paragraph>can<paragraph> </paragraph>be<paragraph> </paragraph>extracted<paragraph> </paragraph>and
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>characterized<paragraph> </paragraph>from<paragraph> </paragraph>the<paragraph> </paragraph>visual<paragraph> </paragraph>data.<paragraph> </paragraph>Simple<paragraph> </paragraph>segmentation<paragraph> </paragraph>schemes<paragraph> </paragraph>often<paragraph> </paragraph>lack
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>the<paragraph> </paragraph>sophistication<paragraph> </paragraph>to<paragraph> </paragraph>deal<paragraph> </paragraph>with<paragraph> </paragraph>intricate<paragraph> </paragraph>or<paragraph> </paragraph>very<paragraph> </paragraph>subtle<paragraph> </paragraph>details<paragraph> </paragraph>of<paragraph> </paragraph>this
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>image<paragraph> </paragraph>data.<paragraph> </paragraph>This<paragraph> </paragraph>paper<paragraph> </paragraph>will<paragraph> </paragraph>discuss<paragraph> </paragraph>advanced<paragraph> </paragraph>techniques<paragraph> </paragraph>useful<paragraph> </paragraph>in
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>obtaining<paragraph> </paragraph>information<paragraph> </paragraph>relevant<paragraph> </paragraph>to<paragraph> </paragraph>the<paragraph> </paragraph>recognition<paragraph> </paragraph>and<paragraph> </paragraph>extraction<paragraph> </paragraph>of
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>objects<paragraph> </paragraph>of<paragraph> </paragraph>interest<paragraph> </paragraph>in<paragraph> </paragraph>laboratory<paragraph> </paragraph>vision<paragraph> </paragraph>automation<paragraph> </paragraph>applications.</paragraph>
+
+<paragraph>Topic<paragraph> </paragraph>2:<paragraph> </paragraph>Constraint<paragraph> </paragraph>Based<paragraph> </paragraph>Feature<paragraph> </paragraph>Indexing<paragraph> </paragraph>and<paragraph> </paragraph>Retrieval<paragraph> </paragraph>for<paragraph> </paragraph>Image<paragraph> </paragraph>Databases</paragraph>
+
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>Advance<paragraph> </paragraph>presentation<paragraph> </paragraph>of<paragraph> </paragraph>paper<paragraph> </paragraph>being<paragraph> </paragraph>presented<paragraph> </paragraph>at<paragraph> </paragraph>the
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>AFCEA/ITEMS<paragraph> </paragraph>'93<paragraph> </paragraph>conference,<paragraph> </paragraph>Document
+<paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph><paragraph> </paragraph>Processing<paragraph> </paragraph>Applications<paragraph> </paragraph>Track.
+
+<paragraph> </paragraph>
+
+<topic>information segmentation object based constraint robotics indexing feature cs vision techniques</topic>

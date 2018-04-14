@@ -1,0 +1,13 @@
+import re
+file = open("bad.csv")
+lines = file.readlines()
+file.close()
+
+
+names = set()
+for line in lines:
+	if " " in line:
+		for part in line.split(" "):
+			names.add(part.strip())
+	else:
+		names.add(line.strip())

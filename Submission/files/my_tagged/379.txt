@@ -1,0 +1,25 @@
+<0.9.10.92.09.14.42.tmeadows@resumix.portal.com (Tim Meadows).0>
+Type:     cmu.cs.scs
+Topic:    Antarctic Exploration Robotics
+Dates:    9-Oct-92
+Time:     <stime>3:30</stime> - <etime>5:00</etime> PM
+Place:    <location>Baker Hall Adamson Wing</location>
+PostedBy: tmeadows on 9-Oct-92 at 09:14 from resumix.portal.com (Tim Meadows)
+Abstract:<paragraph> </paragraph>
+
+<paragraph>RI<paragraph> </paragraph>SEMINAR</paragraph>
+
+<paragraph> </paragraph>WHEN:		Friday,<paragraph> </paragraph>October<paragraph> </paragraph>9,<paragraph> </paragraph>1992,<paragraph> </paragraph><stime>3:30</stime><paragraph> </paragraph>-<paragraph> </paragraph><etime>5:00</etime><paragraph> </paragraph>PM
+		Refreshments<paragraph> </paragraph>to<paragraph> </paragraph>be<paragraph> </paragraph>served<paragraph> </paragraph>by<paragraph> </paragraph>3:15<paragraph> </paragraph>PM
+
+<paragraph> </paragraph>WHERE:		Baker<paragraph> </paragraph>Hall<paragraph> </paragraph>Adamson<paragraph> </paragraph>Wing
+
+<paragraph> </paragraph>SPREAKER:		Dr.<paragraph> </paragraph>William<paragraph> </paragraph>"Red"<paragraph> </paragraph>L.<paragraph> </paragraph>Whittaker-
+<paragraph> </paragraph>		Principal<paragraph> </paragraph>Scientist<paragraph> </paragraph>and<paragraph> </paragraph>Director,<paragraph> </paragraph>
+<paragraph> </paragraph>		The<paragraph> </paragraph>Field<paragraph> </paragraph>Robotics<paragraph> </paragraph>Center-<paragraph> </paragraph>CMU
+
+<paragraph> </paragraph>TITLE:		Antarctic<paragraph> </paragraph>Exploration<paragraph> </paragraph>Robotics
+
+<paragraph> </paragraph>
+
+<topic>robotics exploration scs cs antarctic red</topic>
