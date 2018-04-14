@@ -58,7 +58,7 @@ If you wish to inspect each email individually you can set the variable stopping
 
 	FILES/: contains files used for training such as names datasets and the emails and lists of already tagged speakers / locations, is parent folder for training and test data folders
 
-================================
+--------------------------------
 
 ## Basic Overview:
 
@@ -75,7 +75,7 @@ Code.py is the main file, it is responsible for the file handling and calling th
 running Code.py demonstrates both parts of the assignment and prints information to the console. It reads in the untagged files, extracts information (and displays a summary to the console for inspection), saves the tagged files, all the time comparing its performance to the test data, displaying summary statistics at the end. It then creates the ontolgy tree and prints it to console
 ```
 
-## Fun Fact #1: 
+### Fun Fact #1: 
 Intro.py selects its 3 random words from Big.txt, because Big.txt contains the text from Tolstoys "War and Peace"
 it therefore has a preference for words from this book; especially Pierre, Paris and Napoleon.
 
@@ -88,5 +88,5 @@ ie the word "Urban" in names.family
 I've also added a file containing names found by extracting pretagged speakers (names.training) and names.extra, which contains titles and abbreviated middle name letters (e.g Thomas W. Malone)
 
 
-## FUN FACT #2:
+### FUN FACT #2:
  The system uses 74 regular expressions!
