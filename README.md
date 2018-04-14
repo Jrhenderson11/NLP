@@ -1,3 +1,12 @@
+# NLP
+
+This repo is for natural language processing stuff, most of the stuff here is from a university module coursework which was a massive and interesting project. The task was, given a corpus of emails about lectures, to pick out some key information from each like where / when it was and the name of the speaker, and to attempt to categorise the email into the relevant subject.
+
+Since I enjoyed the module and I think the coursework is really interesting I'm going to try and extend it and add some new features.
+
+-----------------
+**Everything past here is the original readme stuff, but it's messy and disorganised so I'll try to slowly rewrite it**
+
 Overview of NLP System
 		
 Usage:
