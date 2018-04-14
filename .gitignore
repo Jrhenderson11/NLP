@@ -99,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+files/GoogleNews-vectors-negative300.bin
