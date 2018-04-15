@@ -1,4 +1,5 @@
 import Ontology
+from gensim import corpora
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -18,12 +19,25 @@ def get_keywords_dict(fileList):
 	print("done")
 	return keywords_dict
 
+# is given a fileList and returns a dictionary with relevant tf-idf vectors 
 def generate_tfidf_matrix_batch(fileList):
 	print("generating tf-dif matrix for " + str(len(fileList)) + " files")
 	#get initial dictionary, to provide list to generate tf-idf matrix
 	input_dict = get_keywords_dict(fileList)
 
-	print(input_dict.values())
+	total_words = []
+	for fileName in input_dict:
+		total_words.append(input_dict[fileName].split(" "))
+
+	dictionary = corpora.Dictionary(total_words)
+	#dictionary.save('bagofwords')  # store the dictionary, for future reference
+
+	vector_dict = dict()
+	for fileName in input_dict:
+		new_vec = dictionary.doc2bow(input_dict[fileName].lower().split())
+		vector_dict[fileName] = new_vec
+
+	return vector_dict
 
 # Demo code (DOESNT WORK BECAUSE JUST SOME PLACEHOLDER STUFF)
 def naive_bayes(input_data):
@@ -60,6 +74,6 @@ def naive_bayes(input_data):
 	for sent, category in zip(input_data, predictions):
 		print('\nInput:', sent, '\nPredicted category:', category_map[training_data.target_names[category]])
 
-
+# yeah this doesn't work either (check out ldademo.py tho)
 def latent_dirichlet_allocation():
 	print("do STUFF")

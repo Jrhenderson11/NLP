@@ -1,5 +1,6 @@
 from gensim import corpora
 
+
 texts = [["word1", "w2", "apple"],["word2", "pear", "word1"]]
 dictionary = corpora.Dictionary(texts)
 dictionary.save('/tmp/deerwester.dict')  # store the dictionary, for future reference
