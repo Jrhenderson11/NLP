@@ -19,7 +19,7 @@ To run the program in the way intended for the assignment type into a terminal
 
 where **\<files\>** is a sequence of 0 or more filenames or any other indicator of a list of files (e.g ./files/test_untagged/* will give every file in the folder file as a parameter)
 
-	***TO USE THE SYSTEM IN THE WAY INTENDED RUN WITH PYTHON 2.7 AND ./files/test_untagged/* THIS IS HOW IT KNOWS WHERE THE DATA IS***
+**The location you'll probably want to use for the files argument is ./files/test_untagged/ or ./files/training_untagged/**
 
 The system expects to find 3 folders in its file directory: test_untagged, test_tagged and my_tagged, the first 2 are the corpus and the last is where it saves its own tagged files
 
@@ -45,7 +45,7 @@ CODE:
 
  - Locations.py: a location tagger
 
- -Onotology.py: tags topics and sorts into an ontology tree
+ - Ontology.py: tags topics and sorts into an ontology tree
 
 - Eval.py: calculates accuracy, precision, recall and f measure for each tag
 
@@ -58,8 +58,6 @@ OTHER:
  - FILES/: contains files used for training such as names datasets and the emails and lists of already tagged speakers / locations, is parent folder for training and test data folders
 
 ## Files (stuff not crucial to the coursework):
-
- - Classifier.py: naive bayes classification stuff
 
  - Clusterer.py: currently just a scratch pad for some ideas about representing the ontology using clustering algorithms
 
@@ -115,7 +113,7 @@ it therefore has a preference for words from this book; especially Pierre, Paris
 
 ## Custom input data:
 
-A technique I've used quite a lot at various stages of the pipeline is to filter data based on some pre-made lists of data e.g names are selected by finding words that are capitalised and > 1/3 of the phrase is in the lists of names from the `files/names` files. The names files are from the nltk.names corpus and I've modified them to improve performace.
+A technique I've used quite a lot at various stages of the pipeline is to filter data based on some pre-made lists of data e.g names are selected by finding words that are capitalised and > 1/3 of the phrase is in the lists of names from the `files/names` files. The names files are from the nltk.names corpus and I've modified them to improve performance.
 
 I've modified the contents of the names files from nltk to remove words that commonly provide false positives 
 ie the word "Urban" in names.family
