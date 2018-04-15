@@ -64,36 +64,36 @@ OTHER:
 
  - Clusterer.py: currently just a scratch pad for some ideas about representing the ontology using clustering algorithms
 
- - subjecter.py: a short preprocessing script to turn a list scraped off a website of subject words into a usable list (used to make files/sublist.txt) 
-
- - indian.py: a proceesing script for turning a csv of indian names into a list
-
- - NLP1.py: code for part 1 of the assignment (duplicate of code from Code.py)
-
- - word2vec.py: playing around for using word2vec and testing similarity (used to help calibrate Ontology topicWord selection)
-
- - taggertest.py: building and testing different POS taggers (the measurements here aren't representative of the utility of using a POS tagger in the assignment, relying on POS tags can be restrictive and the more accurate the tags the more restrictive sometimes)
-
- - ldademo.py: stub of a script to use LDA as a topic selection algorithm
-
- - Parsing.py: a script demonstrating parsing using context-free-grammars
-
- - tf-idf.py: file containing multiple agorithms that would use a TF-IDF matrix generated from the email data (very WIP)
-
- - lemmandstem.py: a script with lemming and stemming stuff
-
- - trainer.py: brief thing baed on part of taggertest.py used to train and save a single tagger (used to make POS.pickle for the assignment)
-
  - Foxer.py: a script to help solve a riddle / puzzle thing using NLP techniques, basically finds an intersection between subjects e.g. tintin character and govenor of india
-
- - Spelling.py: experimenting with spelling corrction / error detection
-
- - vectorize.py: creating a TF-IDF matrix from a corpus using gensim (taken from gensim website)
 
  - generate_phone_book.py: generates a random phonebook as training / test data for something
 
+ - indian.py: a proceesing script for turning a csv of indian names into a list
+
+ - ldademo.py: stub of a script to use LDA as a topic selection algorithm
+
+ - lemmandstem.py: a script with lemming and stemming stuff
+
+ - NLP1.py: code for part 1 of the assignment (duplicate of code from Code.py)
+
+ - Parsing.py: a script demonstrating parsing using context-free-grammars
+
+ - Spelling.py: experimenting with spelling corrction / error detection
+
+ - subjecter.py: a short preprocessing script to turn a list scraped off a website of subject words into a usable list (used to make files/sublist.txt) 
+
+ - taggertest.py: building and testing different POS taggers (the measurements here aren't representative of the utility of using a POS tagger in the assignment, relying on POS tags can be restrictive and the more accurate the tags the more restrictive sometimes)
+
+ - tf-idf.py: file containing multiple agorithms that would use a TF-IDF matrix generated from the email data (very WIP)
+
+ - trainer.py: brief thing baed on part of taggertest.py used to train and save a single tagger (used to make POS.pickle for the assignment)
+
+ - vectorize.py: creating a TF-IDF matrix from a corpus using gensim (taken from gensim website)
+
  - wikifier.py: some basic code for analysing wikipedia articles for useful info (theoretically could be used to assist with NER but I found performance was poor)
 
+ - word2vec.py: playing around for using word2vec and testing similarity (used to help calibrate Ontology topicWord selection)
+ 
 --------------------------------
 ## Basic Overview:
 
