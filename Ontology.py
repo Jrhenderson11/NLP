@@ -7,14 +7,13 @@ import Tagger
 from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
 
-
 #removes part of type line that is not relevant for topic
 def take_out(word, text):
 	if "cmu.andrew.org." in classification:
 		classification = re.sub(r'cmu\.andrew\.org\.', "", classification)
 	return text
 
-#looks for indicators of the topic
+#looks for indicators of the topic (extracts lists of keywords)
 def get_topic(origtext):
 
 	text = Tagger.remove_tags(origtext)

@@ -111,7 +111,6 @@ def process_email(text):
 
 #		MAIN METHOD
 if __name__ == '__main__':
-
 	
 	fileList = sys.argv
 	fileList.pop(0)
@@ -129,35 +128,20 @@ if __name__ == '__main__':
 		print_help()
 		sys.exit()
 
-
-
 	#paragraph scores
-	totPacc = 0
-	totPprec = 0 
-	totPrec = 0
-	totPf = 0
+	totPacc, totPprec, totPrec, totPf = 0, 0, 0, 0
 
 	#senetence scores
-	totSacc = 0
-	totSprec = 0 
-	totSrec = 0
-	totSf = 0
+	totSacc, totSprec, totSrec, totSf = 0, 0, 0, 0
 
 	#time scores
-	totTacc = 0
-	totTprec = 0 
-	totTrec = 0
-	totTf = 0
+	totTacc, totTprec, totTrec, totTf = 0, 0, 0, 0
+
 	#name scores
-	totNacc = 0
-	totNprec=0
-	totNrec = 0
-	totNf = 0
+	totNacc, totNprec, totNrec, totNf = 0, 0, 0, 0
+	
 	#location scores
-	totLacc = 0
-	totLprec=0
-	totLrec = 0
-	totLf = 0
+	totLacc, totLprec, totLrec, totLf = 0, 0, 0, 0
 
 	stopping = False
 	Intro.print_intro()
@@ -188,7 +172,6 @@ if __name__ == '__main__':
 
 	namesdict = NER.extract_names_files(fileList)
 	numdict = {}
-
 
 	for i in range (0, len(fileList)):
 		untaggedfile = fileList[i]
@@ -250,19 +233,12 @@ if __name__ == '__main__':
 		acsents =  Tagger.extract_sentences(taggedtext)
 		mysents =  Tagger.extract_sentences(mytext)
 
+		#calculate scores and tally total
 		(acc, prec, rec, f) = Eval.evaluate_generic(fileName, myparas, acparas)
-		totPacc = totPacc + acc
-		totPprec = totPprec + prec
-		totPrec = totPrec + rec
-		totPf = totPf + f
+		totPacc, totPprec, totPrec, totPf = (totPacc + acc, totPprec + prec, totPrec + rec, totPf + f)
+
 		(acc, prec, rec, f) = Eval.evaluate_generic(fileName, mysents, acsents)
-		totSacc = totSacc + acc
-		totSprec = totSprec + prec
-		totSrec = totSrec + rec
-		totSf = totSf + f
-
-
-
+		totSacc, totSprec, totSrec, totSf = (totSacc + acc, totSprec + prec, totSrec + rec, totSf + f)
 
 		#Time tagging
 		print "Times found:"
@@ -275,16 +251,10 @@ if __name__ == '__main__':
 
 		#eval times
 		(acc, prec, rec, f) = Eval.evaluate_generic(fileName, stimes, acstimes)
-		totTacc = totTacc + acc
-		totTprec = totTprec + prec
-		totTrec = totTrec + rec
-		totTf = totTf + f
+		totTacc, totTprec, totTrec, totTf = (totTacc + acc, totTprec + prec, totTrec + rec, totTf + f)
 
 		(acc, prec, rec, f) = Eval.evaluate_generic(fileName, etimes, acetimes)
-		totTacc = totTacc + acc
-		totTprec = totTprec + prec
-		totTrec = totTrec + rec
-		totTf = totTf + f
+		totTacc, totTprec, totTrec, totTf = (totTacc + acc, totTprec + prec, totTrec + rec, totTf + f)
 
 		names = namesdict[fileName]
 		print "people"
@@ -314,7 +284,7 @@ if __name__ == '__main__':
 					notspeakers.append(name)
 			#concat not speakers into list for evaluation
 			(accuracy, precision, recall, f1) = Eval.evaluate_speakers(taggedfile, speakers, notspeakers, acspeakers)
-		else: 
+		else:
 			speakers = []
 			notspeakers = []
 
@@ -325,10 +295,7 @@ if __name__ == '__main__':
 		mytext = Tagger.find_and_tag(speakers, "speaker", mytext)
 		
 		#eval names
-		totNacc = totNacc + accuracy
-		totNprec = totNprec + precision
-		totNrec = totNrec + recall
-		totNf  =totNf + f1
+		totNacc, totNprec, totNrec, totNf = (totNacc + acc, totNprec + prec, totNrec + rec, totNf + f)
 
 		#Location Tagging
 		locations = Locations.get_all_locations(text)
