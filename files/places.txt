@@ -1,0 +1,392 @@
+<0.19.9.94.13.10.39.jm7l+@andrew.cmu.edu.0>
+Type:     cmu.andrew.org.cil
+Who:      <speaker>George W. Cobb</speaker>, Mount Holyoke College
+Topic:    Three Ways to Gum up a Statistics Course
+Dates:    21-Sep-94
+Time:     <stime>4:00</stime>
+PostedBy: Joseph S. Mertz on 19-Sep-94 at 13:10 from andrew.cmu.edu
+Abstract: 
+
+Statistics Seminar: Wednesday Sept 21, <stime>4:00</stime>  -- <location>Adamson Wing, Baker Hall</location>
+Speaker: <speaker>George W. Cobb</speaker>, Mount Holyoke College
+Title: Three Ways to Gum up a Statistics Course
+<paragraph><sentence>My talk will be in two parts</sentence>.  <sentence>In the first part, I shall offer some 
+general comments and observations on the state of undergraduate 
+statistics education in the US -- some trends, some obstacles to reform, 
+and some hopeful signs</sentence>.</paragraph>
+
+<paragraph><sentence>Among the trends and hopeful signs is this one:  increasing numbers of 
+statistics teachers use hands-on activities to generate data and teach 
+statistical ideas</sentence>.  <sentence>In the second part my talk I shall describe three 
+sets of activities that I developed last year in an elementary linear
+models course</sentence>.  <sentence>All three use inexpensive, everyday equipment, are quick
+and simple to set up, and can be adapted for use in teaching over a range
+of educational levels, from kindergarten to graduate statistics courses</sentence>.</paragraph>
+
+<paragraph><sentence>The first cluster of activities, "Bears in space," uses an inclined plane 
+as a launch pad and a simple catapult built from popsicle sticks and 
+rubber bands to launch Gummy Bears</sentence>.  <sentence>As many as four factors affecting 
+the launch distance can be varied</sentence>.  <sentence>I have used this equipment for 
+teaching various aspects of experimental design (randomization, blocking, 
+factorial crossing, Latin squares) and analysis (interaction, polynomial 
+contrasts, residual plots)</sentence>.  <sentence>At a more advanced level, or in an 
+industrial/engineering setting, it can be used to teach response surface 
+design and analysis</sentence>.  <sentence>At the kindergarten/primary school level, it can be 
+used to elicit conjectures and illustrate the cycle of hypothsis-
+observation-revision/refinement</sentence>.</paragraph>
+
+<paragraph><sentence>The second cluster, "Slime-based Statistics," starts with a recipe for 
+making "slime" from white glue and laundry borax</sentence>.  <sentence>In one activity, 
+"Slime Circles," students design an experiment to study the relationship 
+between the volume of a sphere of slime and the diameter of the circular 
+puddle that it forms</sentence>.  <sentence>I have used this activity for teaching basic ideas 
+of design, simple linear regression, and transformation for linearity</sentence>.  
+<sentence>In a second activity, "Slime Races," students record the relationship 
+between elapsed time and the distance traveled by the leading edge of a 
+blob of slime as it oozes down a steeply sloping board</sentence>.  <sentence>The activity 
+lends itself to repeated measures designs</sentence>.  <sentence>A third activity, "Slop 'till 
+You Drop," can be used to teach survival analysis</sentence>.  <sentence>A blob of slime is 
+impaled on a nail at the top end of a vertical board, and observed as it 
+stretches and ultimately breaks</sentence>.  <sentence>Its length when it breaks is the 
+response value</sentence>.  <sentence>Censoring occurs if the blob touches the board or 
+reaches the bottom before it breaks</sentence>.</paragraph>
+
+<paragraph><sentence>The third cluster uses one inch pieces of Gummy Worms, and leads to two 
+kinds of activities</sentence>.  <sentence>In an elementary course students can generate a 
+"splatterplot" by throwing worm fragments at a Cartesian coordinate 
+system drawn on a blackboard</sentence>.  (<sentence>Depending on conditions, a large fraction 
+of the fragments fall off before their position can be recorded</sentence>.  <sentence>You get 
+a plot more quickly and easily, though less enthusiastically, if students 
+toss the pieces of worm at a coordinate system drawn on newsprint and 
+lying on the floor</sentence>.)  <sentence>At a more advanced level, students can design an 
+experiment and use logistic regression to analyze factors that affect the 
+chance that a worm fragment will stick when it hits the board</sentence>.</paragraph>
+=============================================================================
+Carnegie Conference Room, Warner Hall
+Skibo Ballroom
+Baker Hall 355
+Baker Hall 235A
+Doherty Hall 1112
+Scaife Hall Auditorium
+Scaife Hall Auditorium
+SEI 3505
+Wean Hall 4623
+Wean Hall 4623
+6423 Wean Hall
+6423 Wean Hall
+Student Center Room 207
+CMT Conference Room, 109 Smith Hall
+CMT Conference Room, 109 Smith Hall
+DH 2315
+Carnegie Conference Room, Warner Hall
+Carnegie Conference Room, Warner Hall
+PH B34
+WeH 8220
+WeH 8220
+Porter Hall 125C
+WeH 4623
+Scaife Auditorium (Room 125
+ADAMSON WING Auditorium in Baker Hall
+ADAMSON WING Auditorium in Baker Hall
+Scaife Hall Auditorium
+Scaife Hall Auditorium
+Porter Hall A18C
+Wean Hall 4616
+Wean Hall 4616
+WeH 4623
+WeH 4623
+Warner Hall 415
+Wean 4623
+Hamburg 1001
+Wean 4623
+Wean 4623
+Room 1004 HbH
+WEH 5409
+Doherty Hall, Rm DH2315
+Doherty Hall, Rm DH2315
+Carnegie Conference Room, Warner Hall
+Wean Hall 5409
+HH B131
+Student Center, Room 207
+WeH 8220
+Wean Hall 7220
+Wean Hall 7220
+Baker Hall 355
+Breed Hall, Margaret Morrison Building
+WeH 8220
+Adamson Wing, Baker Hall
+Wean 7500
+WeH 7220
+Hamburg Hall room 2224
+Hamburg Hall room 2224
+Room 2315 Doherty Hall
+Wean Hall 5409
+Wean Hall 4623
+Doherty Hall 2210
+Wean Hall 5409
+Wherrett Room, Skibo
+WeH 5409
+Adamson Wing Auditorium, Baker Hall
+GSIA Rm 318
+Carnegie Conference Room, Warner Hall
+WeH 8220
+CMU, Adamson Wing (Baker Hall
+CMU, Adamson Wing (Baker Hall
+Warner Hall 415
+Wean 5409
+Scaife Hall Auditorium
+Warner Hall 419
+Baker Hall 355
+Baker Hall 355
+Wean Hall 8110
+Adamson Wing
+Baker Hall 237B
+Baker Hall 237B
+Scaife Hall Room 618
+Wean Hall 5409
+Room 2110 HbH
+HbH 1004
+8220 Wean
+Wean Hall 4623
+1295 Biomedical Science Tower
+7220 Wean
+Wean Hall 5409
+Adamson Wing Auditorium, Baker Hall
+5409 Wean Hall
+Porter Hall A18C
+ADAMSON WING Auditorium in Baker Hall
+ADAMSON WING Auditorium in Baker Hall
+Wherrett Room, Skibo
+WEH 5409
+WEH 5409
+Warner Hall 419
+Room 1004 HbH
+5409 Wean Hall
+5409 Wean Hall
+Wean Hall 5409
+Wean Hall 5409
+EDRC Conference Hall - 1202 Hamburg Hall
+EDRC Conference Hall - 1202 Hamburg Hall
+WeH 5409
+116 Old Chem
+Wean Hall 5409
+Wean Hall 5409
+PH 223D
+4605 Wean
+Doherty Hall 1112
+Doherty Hall 1112
+Doherty Hall Room 1112
+Conference Room, DH 1102
+Wean Hall 5409
+Student Center, Room 210
+
+Hamburg Hall 1001
+Porter Hall 7A
+Room 1001, Hamburg Hall
+Room 1001, Hamburg Hall
+WeH 8220
+ADAMSON WING AUDITORIUM, BAKER HALL
+PH A18C
+Wean Hall 4601
+WeH 8220
+Hamburg Hall 1000
+3005 Hamburg Hall
+ADAMSON WING Auditorium in Baker Hall
+ADAMSON WING Auditorium in Baker Hall
+Faculty Dining Room in Skibo
+4605 Wean Hall
+4605 Wean Hall
+1175 Benedum Hall
+WeH 8220
+Carnegie Conference Room, 1st Floor Warner Hall
+Wean Hall 5409
+Wean Hall 5409
+1001 Hamburg
+DH 2315
+Room 1004 HbH
+Wean Hall 7220
+Benedum 1175
+WeH 8220
+Hamburg Hall Auditorium
+EDRC Conference Room
+Scaife Auditorium (Room 125
+WeH 5409
+Hamburg Hall 1002
+Hamburg Hall 1002
+Hamburg 1001
+Mellon Institute Auditorium
+Mellon Institute Conference Room
+Mellon Institute Conference Room
+Hamburg Hall, Room 1004
+Hamburg Hall, Room 1004
+316 Allen Hall, Pitt
+Hamburg Hall Auditorium
+7500 Wean Hall
+HBH 1004
+Porter Hall A18C
+ADAMSON WING, BAKER HALL 136
+7220 Wean Hall
+7220 Wean Hall
+6423 Wean Hall
+Wean Hall 5409
+DOHERTY HALL 1212
+1295 Biomedical Science Tower, Pitt
+UCC 283
+Swank Room, Baker Hall 255B
+PH B34
+Porter Hall A18C
+Porter Hall 126C
+3313 DH
+3313 DH
+Porter Hall A18C
+HbH 1003
+WeH 8220
+Warner Hall 415
+Porter Hall A18C
+Wean Hall 5409
+Wean Hall 5409
+ADAMSON WING Auditorium in Baker Hall
+ADAMSON WING Auditorium in Baker Hall
+Doherty Hall 1112
+Adamson Wing
+WeH 5409
+Wean Hall 5409
+Wean 5409
+Wean Hall 4623
+4623 Wean Hall
+4623 Wean Hall
+GSIA 259
+HbH 2222
+HbH 2222
+Wean Hall 7500
+Carnegie Conference Room, Warner Hall
+La Roche College, 9000 Babcock Blvd.
+Skibo Ballroom
+PH 100
+Doherty 3313
+Doherty 3313
+WeH 8220
+WeH 8220
+Wean 5409
+Wean 5409
+Wean 5409
+2315 Doherty Hall
+Benedum Hall
+Benedum Hall
+ROBERT MORRIS--MOON CAMPUS
+ROBERT MORRIS--MOON CAMPUS
+Hamburg Hall 1001
+UCC 279
+Carnegie Conference Room, Warner Hall
+WeH 4601
+Wean Hall 5409
+Doherty Hall, Room 2315
+PH A18C
+Adamson Wing, Baker Hall
+Adamson Wing, Baker Hall
+Wean Hall 5409
+Wean Hall 5409
+WeH 6121
+Scaife Hall Auditorium
+Scaife Hall Auditorium
+ADAMSON WING Auditorium in Baker Hall
+ADAMSON WING Auditorium in Baker Hall
+WeH 5409
+Wean Hall 5409
+Wean Hall 8220
+Wean Hall 8220
+Wean Hall 5409
+Mellon Institute Conference Room
+Mellon Institute Conference Room
+Hamburg Hall Room 1004
+DH 2315
+Seminar Room 254A
+WeH 5403
+WeH 5403
+Breed Hall, Margaret Morrison Room 103
+Wean Hall 5409
+HBH 1202
+WeH 5409
+ADAMSON WING Auditorium in Baker Hall
+ADAMSON WING Auditorium in Baker Hall
+WeH 5409
+PH A18C
+Warner Hall 415
+ISL Lab
+Baker Hall 237B
+422 Scaife
+WeH 5403
+Warner Hall 415
+106 Allen Hall, Pitt
+6327 Wean Hall, 6th Floor Lounge
+WEAN HALL 7220
+Adamson Wing, Baker Hall
+Hamerschlag Hall 1112
+422 SCAIFE
+WeH 8220
+WeH 7211
+WeH 4601
+ITC Lecture Room (Rm 279), UCC
+Hamburg Hall, H. John Heinz III School of Public Policy and Management
+Hamburg Hall, H. John Heinz III School of Public Policy and Management
+Carnegie Conference Room (1st Floor Warner Hall
+Carnegie Conference Room (1st Floor Warner Hall
+Dean's Conference Room, Baker Hall 246A
+Dean's Conference Room, Baker Hall 246A
+room 207, Student Activities Center
+romm 207, Student Activities Center
+Museum of Art Theater, Carnegie
+Porter Hall 07-A
+Porter Hall 07-A
+Baker Hall - 355
+Baker Hall - 355
+Main Auditorium (1st Floor) GSIA
+Main Auditorium (1st Floor) GSIA
+Forbes Quad, 2M56 on the University of Pittsburgh campus
+Robolounge (314 BoM D)
+CMT conference room (BoM 109
+basement of Hunt Library
+second floor of teh College of Fine Arts
+CMT conference room (BoM 109)
+Engineer's Club, 337 4th Avenue
+EPP conference room, located in BH 129
+Room 2224 of EDRC
+room 2110 in Hamburg Hall
+CMT red conference room
+room 1001
+8220
+1004HBH
+1001HBH
+@ISL
+MS auditorium in GSIA
+the auditorium
+2110
+8220
+WH7220
+DH3313 
+DH3313 
+ISL conference room
+room 261 of GSIA in the new building
+EPP conference room, located in BH-129
+EPP conference room, located in BH-129
+2110
+8.220
+M.I. 448
+M.I. 448
+8.220
+8.220
+8.220
+4623 (?), the fleecing room
+room 152
+Women's Center
+CMT conference room (Bdlg B 109
+WeH8220
+Faculty/Ph.D. lounge
+DH3313
+DH3313
+room 1001
+room 318 (GSIA
+8220
+1003
+Fil's office
+room 2110

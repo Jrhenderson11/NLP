@@ -1,0 +1,345 @@
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/118.txt
+Dr. Noellette Conway-Schempf
+['Jan']
+---------
+not found: files/training/118.txt
+Dr. Noellette Conway-Schempf
+['Dr. Noellette Conway']
+---------
+not found: files/training/118.txt
+Dr. Noellette Conway-Schempf
+['Erik Devereux']
+---------
+NUM:========================================
+0
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['Richard Florida']
+---------
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['Timothy McNulty']
+---------
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['Al Novak']
+---------
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['Edmund J. Delaney']
+---------
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['Chester Environmental']
+---------
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['PAUL PORTNEY']
+---------
+not found: files/training/128.txt
+DR. PAUL PORTNEY
+['S. COMPETITIVENESS']
+---------
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/151.txt
+Professor Teddy Seidenfeld
+['Cheryl Gobble', 'Cheryl Gobble']
+---------
+NUM:========================================
+1
+not found: files/training/157.txt
+Charles Paine
+['Jan', 'Wednesday Jan']
+---------
+NUM:========================================
+1
+not found: files/training/164.txt
+Dr. Daniel Reed
+['Jan']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+not found: files/training/185.txt
+Molly Johnson
+['Michelle Gregg']
+---------
+NUM:========================================
+1
+not found: files/training/18.txt
+Dr. R. J. (Bob) Pangborn
+['Dr. R. J.']
+---------
+not found: files/training/18.txt
+Dr. R. J. (Bob) Pangborn
+['Pangborn']
+---------
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/206.txt
+Ross
+['Kelvin Ross', 'Kelvin Ross']
+---------
+not found: files/training/206.txt
+Ross
+['Marge Profeta']
+---------
+not found: files/training/208.txt
+Kim Cannon
+['Jan']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/236.txt
+Robert DeKeyser
+['Job Talks']
+---------
+not found: files/training/236.txt
+Robert DeKeyser
+['Jan']
+---------
+NUM:========================================
+2
+not found: files/training/237.txt
+Susanne Carroll
+['Job Talks']
+---------
+not found: files/training/237.txt
+Susanne Carroll
+['Jan']
+---------
+NUM:========================================
+2
+NUM:========================================
+0
+not found: files/training/244.txt
+Pat Savage
+['Thursday June']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/267.txt
+Sarvajit S. Sinha
+['Dave McKeown', 'Dave McKeown']
+---------
+not found: files/training/267.txt
+Sarvajit S. Sinha
+['Lydia', 'Lydia']
+---------
+NUM:========================================
+2
+NUM:========================================
+0
+not found: files/training/275.txt
+Alberto Elfes
+['Sanderson']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/284.txt
+Dr. David G. Goodenough
+['Dave McKeown', 'Dave McKeown']
+---------
+not found: files/training/284.txt
+Dr. David G. Goodenough
+['Lydia Defilippo', 'Lydia Defilippo']
+---------
+NUM:========================================
+2
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/297.txt
+Hugh Durrant-Whyte
+['Hugh Durrant', 'Hugh Durrant']
+---------
+not found: files/training/297.txt
+Hugh Durrant-Whyte
+['Kalman']
+---------
+not found: files/training/297.txt
+Hugh Durrant-Whyte
+['Carolyn Kraft', 'Carolyn Kraft']
+---------
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/30.txt
+R A V I   K I R A N
+['James White']
+---------
+not found: files/training/30.txt
+R A V I   K I R A N
+['Forbes', 'Forbes Av']
+---------
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/36.txt
+Larisa Naples
+['Pam Yocca', 'Pamela Yocca']
+---------
+NUM:========================================
+1
+not found: files/training/42.txt
+Emilie Roth
+['Jan', 'Jan']
+---------
+not found: files/training/42.txt
+Emilie Roth
+['Bonnie John', 'Bonnie John']
+---------
+NUM:========================================
+2
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/53.txt
+Michael Christel
+['Jan']
+---------
+not found: files/training/53.txt
+Michael Christel
+['Visual Fidelity']
+---------
+NUM:========================================
+2
+NUM:========================================
+0
+not found: files/training/57.txt
+Michael A. Cusumano
+['Jan']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/67.txt
+MR. DAVID A. LENNERT
+['DAVID A. LENNERT']
+---------
+not found: files/training/67.txt
+MR. DAVID A. LENNERT
+['Mr. Lennert']
+---------
+NUM:========================================
+0
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/73.txt
+Dr. Jack Adams
+['Jan']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+NUM:========================================
+0
+not found: files/training/89.txt
+Dr. Davis L. Ford
+['U. Pitt']
+---------
+NUM:========================================
+1
+NUM:========================================
+0
+not found: files/training/93.txt
+DR. STEPHEN KENNEDY
+['STEPHEN KENNEDY']
+---------
+not found: files/training/93.txt
+DR. STEPHEN KENNEDY
+['Dr. Kennedy']
+---------
+not found: files/training/93.txt
+DR. STEPHEN KENNEDY
+['RJ Lee']
+---------
+NUM:========================================
+0
+
