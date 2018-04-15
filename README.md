@@ -55,9 +55,11 @@ OTHER:
 
  - postagger.pickle: stores the POS tagger that is built spearately		
 
- - FILES/: contains files used for training such as names datasets and the emails and lists of already tagged speakers / locations, is parent folder for training and test data folders
+ - FILES/: contains files used for training such as names datasets and the emails and lists of already tagged speakers / locations, it is the parent folder for training and test data folders
 
 ## Files (stuff not crucial to the coursework):
+
+ - analysis.py: file containing multiple agorithms that would use a TF-IDF matrix generated from the email data
 
  - Clusterer.py: currently just a scratch pad for some ideas about representing the ontology using clustering algorithms
 
@@ -80,8 +82,6 @@ OTHER:
  - subjecter.py: a short preprocessing script to turn a list scraped off a website of subject words into a usable list (used to make files/sublist.txt) 
 
  - taggertest.py: building and testing different POS taggers (the measurements here aren't representative of the utility of using a POS tagger in the assignment, relying on POS tags can be restrictive and the more accurate the tags the more restrictive sometimes)
-
- - analysis.py: file containing multiple agorithms that would use a TF-IDF matrix generated from the email data (very WIP)
 
  - trainer.py: brief thing based on part of taggertest.py used to train and save a single tagger (used to make POS.pickle for the assignment)
 
