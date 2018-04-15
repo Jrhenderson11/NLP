@@ -26,13 +26,13 @@ def load_dictionary():
 			words.append(line.rstrip())	
 		file.close()
 	except Exception as e:
-		print "So you know how the usage info said to run this on a system with a dictionary file?"
-		print "you haven't."
-		print "maybe you thought you were being cool"
-		print "or maybe you didn't read it"
-		print "\n you can press enter to continue and ignore this (name recognition will be worse)" 
-		print "Or you can quit and add a dict file"
-		print "\n(this is why you should read READMEs)"
+		print("So you know how the usage info said to run this on a system with a dictionary file?")
+		print("you haven't.")
+		print("maybe you thought you were being cool")
+		print("or maybe you didn't read it")
+		print("\n you can press enter to continue and ignore this (name recognition will be worse)" )
+		print("Or you can quit and add a dict file")
+		print("\n(this is why you should read READMEs)")
 		words = ['apple']
 		x = raw_input()
 	return words
@@ -65,26 +65,26 @@ def extract_names_files(filenames):
 		#mathces all sequences of 1 or more capitalised words
 		startMatches = (re.findall(matchregex, text))
 		candidates = []
-		#print startMatches
+		#print(startMatches)
 		for match in startMatches:
-			#print match
+			#print(match)
 			tagged = tagger.tag([match[0]])
 				
 			#tagged[0][0] is word,  tagged[0][1] is tag
 			if ((tagged[0][1] in [None]) or (tagged[0][1] in ['NN'])) and (not (tagged[0][0].lower() in words)) and (not ('\n' in tagged[0][0])) and (not is_uppercase_sentence(tagged[0][0], words)):
 				candidates.append(tagged[0][0])	
-		#print candidates
+		#print(candidates)
 		candidates = filter_acronyms(candidates)
 		candidates = filter_part_dates(candidates)
-		#print "\n"
-		#print candidates
+		#print("\n")
+		#print(candidates)
 		candidates = only_names(candidates)
-		#print "\n"
-		#print candidates
+		#print("\n")
+		#print(candidates)
 		candidates = remove_places(candidates)
 		candidates = filterout_all_titles(candidates)
-		#print "\n"
-		#print candidates
+		#print("\n")
+		#print(candidates)
 		#put in dictionary
 		names[filename] = candidates
 
@@ -152,7 +152,7 @@ def only_names(words):
 	for fname in ["male", "female", "family", "training", "extra"]:
 		file = open(("files/names." + fname), "r")
 		for name in file.readlines():
-			#print name.rstrip()
+			#print(name.rstrip())
 			for part in name.split(" "):
 				names[part.rstrip()] = True
 		file.close()
@@ -172,8 +172,8 @@ def only_names(words):
 		if titleb == False:
 			parts = word.split(" ")
 			for part in name_capitalise(parts):
-			#	print "part: " + part
-			#	print (part in names)
+			#	print("part: " + part)
+			#	print((part in names))
 				if (part in names):
 					total = total + 1
 			if total > ((len(parts)/3)):
@@ -235,7 +235,7 @@ def get_train_names():
 
 	for name in taggednames:
 		if filter_acronyms([name])==[]:
-			print name
+			print(name)
 
 #after a list of names is generated a set of different people is needed (ie Dr Orloff is the same as Professor Ann Orloff)
 def collapse_names(names):
@@ -290,26 +290,26 @@ def contains_part_name(s1, s2):
 	#then check same words (+ caps version)
 	s2 = re.sub(" ", "", s2)
 	for part in s1.split(" "):
-		#print s1.split(" ")
+		#print(s1.split(" "))
 	
-		#print (re.match(r'^$', part))
+		#print((re.match(r'^$', part)))
 		part = re.sub(r',', '', part)
 		if ((part in s2) or (part.upper() in s2) or (part.lower() in s2) or (name_capitalise([part])[0] in s2)) and (re.match(r'^$', part)==None):
-			#print "COMMON: " + part + ":"
+			#print("COMMON: " + part + ":")
 			return True
 	return False
 
 #filters out names like "Associate Professor" that are entirely titles
 def filterout_all_titles(names):
-	#print "filter"
+	#print("filter")
 	newnames=[]
 	for name in names:
 		newname = name
 		for title in useful.titles:
 			newname = re.sub(title, "", newname)
-		#	print "new " + newname
+		#	print("new " + newname)
 		if (re.match(r'^\s?$', newname) == None):
-		#	print "adding '" + newname + "'"
+		#	print("adding '" + newname + "'")
 			newnames.append(name)
 	return newnames
 
@@ -325,15 +325,15 @@ def filter_sender(namesdict, text):
 	if not (postedBy == None):
 		badlines = badlines + " " + postedBy[0]
 
-	#print badlines
+	#print(badlines)
 	filtereddict = {}
 	x = 0
 	for names in namesdict:
 		lastname = False
-	#	print names
+	#	print(names)
 		for name in namesdict[names]:
 			if (contains_part_name(name, badlines)):
-				#print "FOUND " + name + " IN BLACKLIST"
+				#print("FOUND " + name + " IN BLACKLIST")
 				#name is sender so dont add
 				lastname = True
 				break

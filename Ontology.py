@@ -1,7 +1,7 @@
 import re
 import NER
 import Code
-import pprint 
+import pprint
 import gensim
 import Tagger
 from gensim.models import Word2Vec
@@ -39,9 +39,9 @@ def get_topic(origtext):
 		finquotes.add(quote[0].replace("\"", ""))
 	
 	if not ("case study" in text):
-		#print "quotes: "
+		#print("quotes: ")
 		for quote in finquotes:
-			#print quote	
+			#print(quote	)
 			topic = topic + quote + " "
 	
 	#get topic line
@@ -55,7 +55,7 @@ def get_topic(origtext):
 		stopwords = stopfile.readlines()
 		stopfile.close
 		topic = topic.replace(":", "")
-		#print badwords
+		#print(badwords)
 
 		for word in badwords:
 			topic = topic.replace(word, "")
@@ -177,7 +177,7 @@ class Ontology():
 											}
 									}
 		self.traversal_info = self.generate_traverse_dict(self.ontology, {}, "")
-		print self.traversal_info
+		print(self.traversal_info)
 	
 	def get_topicwords(self, location, path):
 		keys = location.keys()
@@ -185,7 +185,7 @@ class Ontology():
 			return location['topicWords']
 		nextpart = path.split(",")[0]
 		if not nextpart in keys:
-			print "bad path: " + nextpart
+			print("bad path: " + nextpart)
 			return
 		return self.get_topicwords(location[nextpart], ",".join(path.split(",")[1:]))
 
@@ -213,11 +213,11 @@ class Ontology():
 		self.traverse[input_class.rstrip()]['topicWords'] += input_words.rsrip().split( ',' )
 
 	def insert_batch(self, files):
-		print "loading word2vec model"
+		print("loading word2vec model")
 		model = gensim.models.KeyedVectors.load_word2vec_format('files/GoogleNews-vectors-negative300.bin', binary=True)
 		pp = pprint.PrettyPrinter(indent=4)
 		for file in files:
-			print "inserting " + file 
+			print("inserting " + file )
 			self.insert_topic(file, model)
 		pp.pprint(self.ontology)
 			#raw_input()
@@ -231,19 +231,19 @@ class Ontology():
 
 		scores = {}
 		for leaf in self.traversal_info.keys():
-		#	print "leaf"
-		#	print leaf
+		#	print("leaf")
+		#	print(leaf)
 			topicWords = self.get_topicwords(self.ontology, self.traversal_info[leaf])
 			scores[self.calc_similarity(topic.split(" "), topicWords, model)] = leaf  
 			#find distance using word2vec and some other stuff? 
 		maximum = max(scores.keys())
 		c = scores[maximum]
-		print "best class is:"
-		print c 
+		print("best class is:")
+		print(c )
 
 		loc = self.traversal_info[c]
-		print "loc:"
-		print loc
+		print("loc:")
+		print(loc)
 		self.ontology = self.add_to_topic(fileName, loc, self.ontology)
 		#self.ontology[loc]['list'].append(fileName)
 	
@@ -251,11 +251,11 @@ class Ontology():
 		keys = location.keys()
 		if  'talks' in keys: 
 			#insert into leaf
-			#print location.keys()
+			#print(location.keys())
 			if location['talks'] == None:
-				print "inserted " + fileName + " into None" 
+				print("inserted " + fileName + " into None" )
 				location['talks'] = []
-			#print location['talks'].append(fileName)
+			#print(location['talks'].append(fileName))
 
 			#location['talks'] = 
 			location['talks'].append(fileName)
@@ -263,7 +263,7 @@ class Ontology():
 		else:
 			nextpart = path.split(",")[0]
 			if not nextpart in keys:
-				print "bad path: " + nextpart
+				print("bad path: " + nextpart)
 				return
 			#self.add_to_topic(fileName, ",".join(path.split(",")[1:]), location[nextpart])
 			location[nextpart] = self.add_to_topic(fileName, ",".join(path.split(",")[1:]), location[nextpart])
@@ -313,11 +313,11 @@ class Ontology():
 		keys = location.keys()
 		if  'topicWords' in keys: 
 			#insert into leaf
-			#print location.keys()
+			#print(location.keys())
 			if location['talks'] == None:
-				print "inserted " + fileName + " into None" 
+				print("inserted " + fileName + " into None" )
 				location['talks'] = []
-			#print location['talks'].append(fileName)
+			#print(location['talks'].append(fileName))
 
 			#location['talks'] = 
 			location['talks'].append(fileName)
@@ -325,7 +325,7 @@ class Ontology():
 		else:
 			nextpart = path.split(",")[0]
 			if not nextpart in keys:
-				print "bad path: " + nextpart
+				print("bad path: " + nextpart)
 				return
 			#self.add_to_topic(fileName, ",".join(path.split(",")[1:]), location[nextpart])
 			location[nextpart] = self.add_to_topic(fileName, ",".join(path.split(",")[1:]), location[nextpart])

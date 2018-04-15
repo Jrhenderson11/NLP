@@ -18,7 +18,7 @@ def print_intro():
 	while l >26:
 		words = print_words()
 		l = len(words)
-	print((" " * ((26-l)/2))+words)
+	print((" " * int((26-l)/2))+words)
 	print ("_________________________")
 
 

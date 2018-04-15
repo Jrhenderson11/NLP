@@ -4,21 +4,21 @@ import Code
 import Locations
 #prints help text
 def print_help():
-	print "\n				HELP TEXT"
-	print "\n	To run the program type into a terminal: 'python Eval.py <files>'"
-	print "	where <files> is a sequence of 0 or more filenames"
-	print "	or any other indcator of a list of files (e.g ./files/*)"
-	print "\nThis will then evaluate the tagging compared to the tags found in files/test_tagged/"
+	print("\n				HELP TEXT")
+	print("\n	To run the program type into a terminal: 'python Eval.py <files>'")
+	print("	where <files> is a sequence of 0 or more filenames")
+	print("	or any other indcator of a list of files (e.g ./files/*)")
+	print("\nThis will then evaluate the tagging compared to the tags found in files/test_tagged/")
 
 def print_intro():
-	print ("==========================")
-	print ("|                        |")
-	print ("| ____  _  _  __    __   |")  
-	print ("|( ___)( \/ )/__\  (  )  |")
-	print ("| )__)  \  //(__)\  )(__ |")
-	print ("|(____)  \/(__)(__)(____)|")
-	print ("|________________________|  er")
-	print ("\/\/\/\/\/\/\/\/\/\/\/\/\/\n")
+	print(("=========================="))
+	print(("|                        |"))
+	print(("| ____  _  _  __    __   |")  )
+	print(("|( ___)( \/ )/__\  (  )  |"))
+	print(("| )__)  \  //(__)\  )(__ |"))
+	print(("|(____)  \/(__)(__)(____)|"))
+	print(("|________________________|  er"))
+	print(("\/\/\/\/\/\/\/\/\/\/\/\/\/\n"))
 
 #fileName of evaluated tex, words that have been tagged, acwords that should be tagged
 def evaluate_generic(fileName, words, acwords):	
@@ -34,7 +34,7 @@ def evaluate_generic(fileName, words, acwords):
 		else:
 			fn = fn + 1
 	for word in words:
-		#print word
+		#print(word)
 		#ADJUSTED
 		if not word in acwords:
 			fp = fp + 1
@@ -59,11 +59,11 @@ def evaluate_generic(fileName, words, acwords):
 	else:
 		f1 = 2*((precision * recall) /(precision + recall))
 	
-	print "Time evaluation of file " + fileName
-	print "accuracy: " + str(acc)
-	print "precision: " + str(precision)
-	print "recall: " + str(recall)
-	print "f1: " + str(f1) 
+	print("Time evaluation of file " + fileName)
+	print("accuracy: " + str(acc))
+	print("precision: " + str(precision))
+	print("recall: " + str(recall))
+	print("f1: " + str(f1) )
 	#raw_input()
 	return (acc, precision, recall, f1)
 
@@ -84,7 +84,7 @@ def evaluate_speakers(fileName, speakers, notspeakers, acnames):
 		else:
 			fn = fn + 1
 	for name in speakers:
-		#print name
+		#print(name)
 		#ADJUSTED
 		if not name in acnames:
 			found = False
@@ -119,11 +119,11 @@ def evaluate_speakers(fileName, speakers, notspeakers, acnames):
 	else:
 		f1 = 2*(precision * recall  /(precision + recall))
 	
-	print "evaluation of file " + fileName
-	print "accuracy: " + str(acc)
-	print "precision: " + str(precision)
-	print "recall: " + str(recall)
-	print "f1: " + str(f1) 
+	print("evaluation of file " + fileName)
+	print("accuracy: " + str(acc))
+	print("precision: " + str(precision))
+	print("recall: " + str(recall))
+	print("f1: " + str(f1) )
 	return (acc, precision, recall, f1)
 
 #gives evaluation for locations
@@ -169,10 +169,10 @@ def evaluate_locations(fileName, locs, notlocs, aclocs):
 	else:
 		f1 = 2*(precision * recall  /(precision + recall))
 
-	print "evaluation of file " + fileName
-	print "accuracy: " + str(acc)
-	print "precision: " + str(precision)
-	print "recall: " + str(recall)
-	print "f1: " + str(f1) 
+	print("evaluation of file " + fileName)
+	print("accuracy: " + str(acc))
+	print("precision: " + str(precision))
+	print("recall: " + str(recall))
+	print("f1: " + str(f1) )
 	#raw_input()
 	return (acc, precision, recall, f1)

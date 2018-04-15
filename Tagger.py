@@ -77,14 +77,14 @@ def output_tagged_time(text):
 	jointtimes = re.findall(r'((((0?[0-9]|1[0-9]|2[0-4]):[0-5][0-9](\s?(P|A|p|a)\.?(M|m))?))|((0?[0-9]|1[0-9]|2[0-4])\s?(P|A|p|a)\.?(M|m))| 0?[0-9]| 1(1|2)) ?(-|to) ?((((0?[0-9]|1[0-9]|2[0-4]):[0-5][0-9](\s?(P|A|p|a)\.?(M|m))?))|((0?[0-9]|1[0-9]|2[0-4])\s?(P|A|p|a)\.?(M|m)))', text)
 	if (len(jointtimes)>0):
 		
-	#	print "d"
-	#	print timesdict
-	#	print "joint"
-	#	print jointtimes
+	#	print("d")
+	#	print(timesdict)
+	#	print("joint")
+	#	print(jointtimes)
 		time1 = jointtimes[0][0]
 		time2 = jointtimes[0][13]
-		print "stime: " + time1
-		print "etime: " + time2
+		print("stime: " + time1)
+		print("etime: " + time2)
 
 		stimes = timesdict[format_time(time1)]
 		etimes = timesdict[format_time(time2)]
@@ -121,9 +121,9 @@ def collapse_times(times):
 	for time in times:
 		shorter = re.findall(r"(((0?[0-9]|1[0-9]|2[0-4])(:|\.)[0-5][0-9])|(0?[0-9]|1[0-9]|2[0-4]))", time)
 		if shorter != []:
-			#print shorter
+			#print(shorter)
 			shorttime = shorter[0][0] 
-			#print shorttime
+			#print(shorttime)
 			reducedtimes.append(shorttime)
 
 			#put into dict for alter retrieval
@@ -133,7 +133,7 @@ def collapse_times(times):
 				firstdict[shorttime].append(time)
 
 	twodict = {}
-	print reducedtimes
+	print(reducedtimes)
 	#convert x to x:00
 	formattedtimes = []
 	for time in reducedtimes:
@@ -148,8 +148,8 @@ def collapse_times(times):
 			twodict[newtime].extend(firstdict[time])
 		else:
 			twodict[newtime] = firstdict[time]
-	#print "2:"
-	#print twodict
+	#print("2:")
+	#print(twodict)
 	return twodict
 
 
@@ -172,14 +172,14 @@ def format_time(time):
 
 #given a list of talk times decide which are which
 def select_times(times, text):
-	#print times
+	#print(times)
 
 	num = len(times)
 	if (num==0):
 		#nothing
 		return {}
 	elif (num==1):
-	#	print "stime: " + str(times.keys()[0])
+	#	print("stime: " + str(times.keys()[0]))
 		#stime
 		return {'stime':times.keys()[0]}
 	elif (num==2):

@@ -30,7 +30,7 @@ def extract_tagged_locations(text):
 	matches2 = re.findall(r'((?<=<location>)(.*\n)*?.*(?=<\/location>))', text)
  
 	for possible in matches2:
-		#print possible
+		#print(possible)
 		s = ''
 		try:
 			s = re.sub(r'(</location>).*(\n.*)*(<location>)', '|||', possible)
@@ -39,7 +39,7 @@ def extract_tagged_locations(text):
 		final = re.sub('<.*>', '', s)
 		locations.extend(final.split("|||"))
 
-	#print locations
+	#print(locations)
 	return locations
 
 #this extracts everything from the emails "Place:" header if it exists
@@ -66,7 +66,7 @@ def filter_basic(candidates):
 #try and find numbers on a newline cut off from other locations
 def experimental_newline_number(text):
 	for match in re.findall(r'(?<=\n)[0-9]+', text):
-		print match[0] 
+		print(match[0] )
 
 #filter to see if match looks like location
 def has_building_words(candiates):
@@ -96,9 +96,9 @@ def get_train_locations_files():
 		f = open(mypath+"/"+ file, "r")
 		taggedlocations.extend(extract_tagged_locations(f.read()))
 		f.close()
-	print "PLACES:"
+	print("PLACES:")
 	for place in taggedlocations:
-		print place
+		print(place)
 
 #checks to see if location has appeared in previous tagged emails
 def is_known(word):
@@ -127,14 +127,14 @@ def get_all_locations(text):
 
 	
 	for match in firstlist:
-		#print match[0]
+		#print(match[0])
 		#raw_input()
 		firstcandidates.append(match[0].strip())
 	
 	#strip one word line off
 	for candidate in firstcandidates:
-		#print candidate
-		#print re.findall(r'\n\s?\w+(\s|\n)?$', candidate)
+		#print(candidate)
+		#print(re.findall(r'\n\s?\w+(\s|\n)?$', candidate))
 		#raw_input()
 		if (re.findall(r'\n\s?\w+(\s|\n)?$', candidate) == ['']):
 			candidates.append(re.sub(r'\n\s?\w+(\s|\n)?', "", candidate))
