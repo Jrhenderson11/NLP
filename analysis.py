@@ -1,7 +1,26 @@
+import Ontology
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
+
+def get_keywords_dict(fileList):
+	# keywords dict will be a dictionary of filenames and topic keywords
+	keywords_dict = dict()
+	for file in fileList:
+		f = open(fname, 'r')
+		text = f.read()
+		f.close()
+
+		topicwords = Ontology.get_topic(text)
+		keywords_dict[file] = topicwords
+	return keywords_dict
+
+def generate_tfidf_matrix_batch(fileList):
+	#get initial dictionary, to provide list to generate tf-idf matrix
+	input_dict = get_keywords_dict(fileList)
+
+	print(input_dict.values)
 
 # Demo code (DOESNT WORK BECAUSE JUST SOME PLACEHOLDER STUFF)
 def naive_bayes(input_data):
