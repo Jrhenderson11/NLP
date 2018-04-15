@@ -2,13 +2,13 @@
 
 ## Overview: 
 
-This repo is for natural language processing stuff, most of the stuff here is from a university module coursework which was a massive and interesting project. The task was, given a corpus of emails about lectures, to pick out some key information from each like where / when it was and the name of the speaker, and to attempt to categorise the email into the relevant subject. The final report submitted for this work is in NLPReport.pdf, it is a little squished and badly presented since we were given a page limit and I really wanted to put as much detail in as possible, in the end I got 100% on the assingment.
+This repo is for natural language processing stuff, most of the stuff here is from a university module coursework which was a massive and interesting project. The task was, given a corpus of emails about lectures, to pick out some key information from each like where / when it was and the name of the speaker, and to attempt to categorise the email into the relevant subject. The final report submitted for this work is in NLPReport.pdf, it is a little squished and badly presented since we were given a page limit and I really wanted to put as much detail in as possible, in the end I got 100% on the assignment.
 
 Since I enjoyed the module and I think the coursework is really interesting I'm going to try and extend it and add some new features such as the ones I suggested in the report.
 
 -----------------
 **Everything past here is the original readme stuff, but it's messy and disorganised so I'll try to slowly rewrite it**
-		
+
 ## Usage:
 
 Please run in the folder from the zip, the program assumes the files are where it expects them to be
@@ -114,8 +114,9 @@ Running Code.py demonstrates both parts of the assignment and prints information
 Intro.py selects its 3 random words from Big.txt, because Big.txt contains the text from Tolstoys "War and Peace"
 it therefore has a preference for words from this book; especially Pierre, Paris and Napoleon.
 
-
 ## Custom input data:
+
+A technique I've used quite a lot at various stages of the pipeline is to filter data based on some pre-made lists of data e.g names are selected by finding words that are capitalised and > 1/3 of the phrase is in the lists of names from the `files/names` files. The names files are from the nltk.names corpus and I've modified them to improve performace.
 
 I've modified the contents of the names files from nltk to remove words that commonly provide false positives 
 ie the word "Urban" in names.family
