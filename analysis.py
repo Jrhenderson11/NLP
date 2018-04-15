@@ -5,22 +5,25 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
 def get_keywords_dict(fileList):
+	print("generating keywords dictionary")
 	# keywords dict will be a dictionary of filenames and topic keywords
 	keywords_dict = dict()
 	for file in fileList:
-		f = open(fname, 'r')
+		f = open(file, 'r')
 		text = f.read()
 		f.close()
 
 		topicwords = Ontology.get_topic(text)
 		keywords_dict[file] = topicwords
+	print("done")
 	return keywords_dict
 
 def generate_tfidf_matrix_batch(fileList):
+	print("generating tf-dif matrix for " + str(len(fileList)) + " files")
 	#get initial dictionary, to provide list to generate tf-idf matrix
 	input_dict = get_keywords_dict(fileList)
 
-	print(input_dict.values)
+	print(input_dict.values())
 
 # Demo code (DOESNT WORK BECAUSE JUST SOME PLACEHOLDER STUFF)
 def naive_bayes(input_data):

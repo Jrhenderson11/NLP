@@ -1,10 +1,10 @@
 from gensim import corpora
 
-texts = ["a","b"]
+texts = [["word1", "w2", "apple"],["word2", "pear", "word1"]]
 dictionary = corpora.Dictionary(texts)
 dictionary.save('/tmp/deerwester.dict')  # store the dictionary, for future reference
 print(dictionary)
-Dictionary(12 unique tokens)
+#Dictionary(12 unique tokens)
 print(dictionary.token2id)
 
 #convert doc to vec

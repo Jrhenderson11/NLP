@@ -102,7 +102,7 @@ def filter_dates(words):
 		shortmonths.append(word.upper())
 	allowed = []	
 	for word in words:
-		if not( word in months or word in shortmonths):
+		if not( word in months or word in shortmonths or word + "." in shortmonths):
 			allowed.append(word)
 	return allowed
 

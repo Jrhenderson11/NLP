@@ -374,7 +374,7 @@ if __name__ == '__main__':
 	#onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 	if (len(fileList) == 0 ):
-		print(("\nRunning on all test data"))
+		print(("\ninput a filename"))
 		fname = input()
 		fileList = [fname]
 
