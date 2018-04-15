@@ -1,6 +1,6 @@
 # NLP
 
-##Ovreview: 
+## Overview: 
 
 This repo is for natural language processing stuff, most of the stuff here is from a university module coursework which was a massive and interesting project. The task was, given a corpus of emails about lectures, to pick out some key information from each like where / when it was and the name of the speaker, and to attempt to categorise the email into the relevant subject. The final report submitted for this work is in NLPReport.pdf, it is a little squished and badly presented since we were given a page limit and I really wanted to put as much detail in as possible, in the end I got 100% on the assingment.
 
@@ -86,14 +86,14 @@ OTHER:
 
  - tf-idf.py: file containing multiple agorithms that would use a TF-IDF matrix generated from the email data (very WIP)
 
- - trainer.py: brief thing baed on part of taggertest.py used to train and save a single tagger (used to make POS.pickle for the assignment)
+ - trainer.py: brief thing based on part of taggertest.py used to train and save a single tagger (used to make POS.pickle for the assignment)
 
  - vectorize.py: creating a TF-IDF matrix from a corpus using gensim (taken from gensim website)
 
  - wikifier.py: some basic code for analysing wikipedia articles for useful info (theoretically could be used to assist with NER but I found performance was poor)
 
  - word2vec.py: playing around for using word2vec and testing similarity (used to help calibrate Ontology topicWord selection)
- 
+
 --------------------------------
 ## Basic Overview:
 
