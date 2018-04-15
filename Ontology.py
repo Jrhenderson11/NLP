@@ -269,7 +269,6 @@ class Ontology():
 			location[nextpart] = self.add_to_topic(fileName, ",".join(path.split(",")[1:]), location[nextpart])
 			return location
 
-
 	#given 2 lists of words meaures the simialrity
 	def calc_similarity(self, candidatewords, topicwords, model):
 		total = 0

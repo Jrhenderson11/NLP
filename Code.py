@@ -380,6 +380,7 @@ if __name__ == '__main__':
 	print "precision: " + str((totLprec+totPprec+totSprec+totTprec+totNprec) / (6*len(fileList))) 
 	print "recall: " + str((totLrec+totPrec+totSrec+totTrec+totNrec) / (6*len(fileList)))
 	print "f1: " + str((totLf+totPf+totSf+totTf+totNf) / (6*len(fileList)))  + "\n"
+
 	print "\n Ontology stuff:"
 	ontology = Ontology.Ontology()
 	ontology.insert_batch(myList)
