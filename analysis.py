@@ -5,6 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
+# given a list of files and produces a dictionary of keywords used to identify the topic
 def get_keywords_dict(fileList):
 	print("generating keywords dictionary")
 	# keywords dict will be a dictionary of filenames and topic keywords
@@ -19,7 +20,7 @@ def get_keywords_dict(fileList):
 	print("done")
 	return keywords_dict
 
-# is given a fileList and returns a dictionary with relevant tf-idf vectors 
+# is given a fileList and returns a dictionary with relevant (sparse) tf-idf vectors 
 def generate_tfidf_matrix_batch(fileList):
 	print("generating tf-dif matrix for " + str(len(fileList)) + " files")
 	#get initial dictionary, to provide list to generate tf-idf matrix
