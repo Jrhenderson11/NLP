@@ -1,0 +1,30 @@
+<0.28.1.94.10.19.08.plp+@PHYLLIS.ADM.CS.CMU.EDU (Phyllis Pomerantz).0>
+Type:     AI Seminar
+Who:      <speaker>Dan Weld</speaker>, University of Washington
+Topic:    Planning: Recent Results
+Dates:    8-Feb-94
+Time:     <etime>3:30 PM</etime>
+Place:    <location>5409 Wean Hall</location>
+Host:     Michael Erdmann
+PostedBy: plp+ on 28-Jan-94 at 10:19 from PHYLLIS.ADM.CS.CMU.EDU (Phyllis Pomerantz)
+Abstract: 
+
+ Type:     AI Seminar
+ Who:      <speaker>Dan Weld</speaker>, University of Washington
+<paragraph><sentence> Topic:    Planning: Recent Results
+ Dates:    8-Feb-94</sentence></paragraph>
+ Time:     <etime>3:30 p.m</etime>.
+<paragraph> Place:    <location>5409 Wean Hall</location></paragraph>
+ Host:     Michael Erdmann
+
+                        (not available as yet)
+
+<paragraph> FurtherDetails: For appointments: Phyllis Pomerantz (plp@cs) or (X8-7897)</paragraph>
+
+<paragraph><sentence><speaker>Dan Weld</speaker> will arrive on Monday, Feb. 7 and will be scheduling appointments
+from <stime>2:30 p.m</stime>. on into the evening, and all day on Tuesday</sentence>.</paragraph>
+
+<paragraph>FurtherDetails: For appointments: Phyllis Pomerantz (plp@cs) or (X8-7897)    </paragraph>
+
+
+<topic>ai cs planning results recent</topic>

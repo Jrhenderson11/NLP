@@ -1,0 +1,50 @@
+<0.02.12.91.13.54.29.marian+@MARIAN.ADM.CS.CMU.EDU (Marian D'Amico).0>
+Type:     cmu.cs.scs
+Who:      <speaker>Tim Griffin</speaker>, AT&T <speaker>Bell Laboratories</speaker>
+Topic:    Logical Interpretations and Computational Simulations
+Dates:    5-Dec-91
+Time:     <stime>3:30</stime> PM
+Place:    <location>WeH 5409</location>
+PostedBy: marian+ on 02-Dec-91 at 13:54 from MARIAN.ADM.CS.CMU.EDU (Marian D'Amico)
+Abstract: 
+
+<paragraph><sentence> SPEAKER:  <speaker>Tim Griffin</speaker>, AT&T <speaker>Bell Laboratories</speaker>
+ TOPIC:    Logical Interpretations and Computational Simulations</sentence></paragraph>
+ DATE:     Thursday, December 5, 1991
+ TIME:     <stime>3:30</stime> PM
+<paragraph> PLACE:    <location>WeH 5409</location></paragraph>
+
+<paragraph><paragraph>************************************************************************</paragraph></paragraph>
+			Logic Colloquium
+			Thursday 5 December
+			<stime>3:30</stime> <location>Wean 5409</location>
+<paragraph><paragraph>************************************************************************</paragraph></paragraph>
+
+	Logical Interpretations and Computational Simulations
+			   <speaker>Tim Griffin</speaker>
+      		      AT&T <speaker>Bell Laboratories</speaker>
+
+	There are many examples in the literature of mathematical 
+	logic concerning the interpretation of one logical system 
+	in another. From a perspective informed by the 
+	formulae-as-types correspondence, it is natural to 
+	investigate logical interpretations from a computational 
+	point of view.     Of particular interest are logical 
+	interpretations that can be associated with simulations 
+	of one computational system in another. 
+
+	The talk surveys several results of this kind, including 
+	interpretations of classical logic in constructive logic 
+	that can be associated with ``continuation passing style'' 
+	transformations. These transformations simulate a functional 
+	language extended with control operators in a purely 
+	functional language. 	
+
+<paragraph> NOTE: <speaker>Tim Griffin</speaker> will be here Thursday afternoon and all day Friday 6 Dec.</paragraph>
+
+<paragraph> APPOINTMENTS:  Please contact Marian D'Amico (marian@cs).</paragraph>
+
+<paragraph>FurtherDetails:    Please contact Marian D'Amico (marian@cs). </paragraph>
+
+
+<topic>interpretations computational logical simulations cs scs</topic>
