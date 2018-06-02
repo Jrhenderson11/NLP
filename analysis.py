@@ -5,6 +5,18 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
+def unsparsify(vector_list, dimension):
+	unsparse = []
+	value_dict = dict()
+	for (k,v) in vector_list:
+		value_dict[k] = v
+	for i in range(dimension):
+		if i in value_dict:
+			unsparse.append(value_dict[i])
+		else:
+			unsparse.append(0)
+	return unsparse
+
 # given a list of files and produces a dictionary of keywords used to identify the topic
 def get_keywords_dict(fileList):
 	print("generating keywords dictionary")
@@ -38,7 +50,7 @@ def generate_tfidf_matrix_batch(fileList):
 		new_vec = dictionary.doc2bow(input_dict[fileName].lower().split())
 		vector_dict[fileName] = new_vec
 
-	return vector_dict
+	return vector_dict, len(dictionary)
 
 # Demo code (DOESNT WORK BECAUSE JUST SOME PLACEHOLDER STUFF)
 def naive_bayes(input_data):

@@ -4,13 +4,16 @@ import sys
 import NER
 import nltk
 import Eval
+import scipy
 import Intro
 import string
 import Tagger
 import Ontology
 import analysis
 import Locations
+import Clusterer
 from os import listdir
+from pprint import pprint
 from collections import Set
 from collections import Counter
 from os.path import isfile, join, dirname
@@ -349,7 +352,6 @@ def part_two(myList):
 	ontology = Ontology.Ontology()
 	ontology.insert_batch(myList)
 
-
 #		MAIN METHOD
 if __name__ == '__main__':
 	
@@ -375,14 +377,60 @@ if __name__ == '__main__':
 
 	if (len(fileList) == 0 ):
 		print(("\ninput a filename"))
-		fname = input()
-		fileList = [fname]
+		fileList = [input()]
 
 	#print(("Files to be processed are: ") )
 	#print((fileList))
 
 	print(("----------------------------------------"))
 
-	analysis.generate_tfidf_matrix_batch(fileList)
+	#matrix dict is dictionary keys=filename values=tfidf matrix
+	(matrix_dict, dimensions) = analysis.generate_tfidf_matrix_batch(fileList)
+	print("created tf-idf matrix of " + str(dimensions) + " dimensions for " + str(len(matrix_dict)) + " vectors")
+	unsparse = []
+	for vectors in matrix_dict.values():
+		unsparse.append(analysis.unsparsify(vectors, dimensions))
+
+	#Clusterer.plot_cluster_v_inertia(unsparse, 1, 200)
+	#Clusterer.plot_clusters(unsparse, clust_labels, clust_cents)
+
+	#make km model from vectors then individually predict and assign to storage (dis is leng)
+
+	#dictionary between keys=files and values=label
+	file_label_dict = dict()
+	#dictionary between keys=label and values=filename
+	label_file_dict = dict()
+
+	(clust_labels, clust_cents, inertia, km_model) = Clusterer.kmeans_cluster(unsparse)
+	for file in matrix_dict:
+		unsparsified = analysis.unsparsify(matrix_dict[file], dimensions)
+		label = km_model.predict([unsparsified])[0]
+		file_label_dict[file]=label
+		if label in label_file_dict:
+			label_file_dict[label].append(file)
+		else:
+			label_file_dict[label] = [file]
+
+	#now go through labels and collect common words
+	for label in label_file_dict:
+		total = ""
+
+		for file in label_file_dict[label]:
+			f = open(file, 'r')
+			text = f.read()
+			f.close()
+			total+=" " + Ontology.get_topic(text)
 
 	
+		word_counts = Counter([word.upper() for word in total.split(" ")])
+		#flip dict, sort and get out words in order, fuck this is effort
+		word_counts = {v: k for k, v in word_counts.items()}
+		nums = list(word_counts.keys())
+		nums.reverse()
+		topten = []
+		for x in nums[:10]:
+			topten.append(word_counts[x])
+		print("topten: " + str(topten))
+
+	#print("Centres: ")
+	#pprint(clust_cents)
